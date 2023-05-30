@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_processes",
+  "info": {
+    "displayName": "Process"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Details": {
+      "type": "text"
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_intro_details",
+  "info": {
+    "displayName": "Intro Details"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonLink": {
+      "type": "string"
+    }
+  }
+}

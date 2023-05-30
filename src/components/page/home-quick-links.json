@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_home_quick_links",
+  "info": {
+    "displayName": "Home Quick Links"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

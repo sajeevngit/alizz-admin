@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "finances",
+  "info": {
+    "singularName": "finance",
+    "pluralName": "finances",
+    "displayName": "Finance"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Slider": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "page.slideshow"
+    },
+    "FixedQuickLinks": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "page.quick-links"
+    },
+    "BankDetails": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "page.bank-details-1"
+    }
+  }
+}

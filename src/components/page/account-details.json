@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_account_details",
+  "info": {
+    "displayName": "Account Details"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "AccountExtra": {
+      "displayName": "Account Extra Details",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.account-extra-details"
+    }
+  }
+}

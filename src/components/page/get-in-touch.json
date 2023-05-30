@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_get_in_touches",
+  "info": {
+    "displayName": "Get In Touch"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "GetTouchList": {
+      "displayName": "Get In Touch List",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.get-in-touch-list"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_branch_details",
+  "info": {
+    "displayName": "Branch Details"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "LocationMap": {
+      "type": "string"
+    }
+  }
+}

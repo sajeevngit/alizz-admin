@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_get_in_touch_lists",
+  "info": {
+    "displayName": "Get In Touch List"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Details": {
+      "type": "richtext"
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

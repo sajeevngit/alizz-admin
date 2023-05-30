@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_page_bank_details_1s",
+  "info": {
+    "displayName": "Bank Details",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "ShortText": {
+      "type": "text"
+    },
+    "LinkText": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "FormDisplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "ApplicationProcess": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.application-process"
+    },
+    "Tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.tab-section"
+    },
+    "Calculator": {
+      "type": "boolean"
+    },
+    "slug": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "alizz-admin",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "@ckeditor/ckeditor5-build-classic": "^37.1.0",
+    "@ckeditor/ckeditor5-react": "^6.0.0",
+    "@strapi/plugin-graphql": "4.6.1",
+    "@strapi/plugin-i18n": "4.6.1",
+    "@strapi/plugin-users-permissions": "4.6.1",
+    "@strapi/strapi": "4.6.1",
+    "apollo-boost": "^0.4.9",
+    "jquery": "^3.6.3",
+    "mysql": "2.18.1",
+    "react-apollo": "^3.1.5",
+    "strapi-plugin-ezforms": "^0.1.5",
+    "strapi-plugin-navigation": "^2.2.4"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "eb0567d5-93cd-4101-b67d-b92b429712b2"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

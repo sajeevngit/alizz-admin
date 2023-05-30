@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_page_home_tab_sliders",
+  "info": {
+    "displayName": "Home Tab Slider"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "MainTitle": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "FeaturedImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "LinkText": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}
